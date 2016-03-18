@@ -24,4 +24,4 @@ for f in files:
     print 'f in files'
     f.add_compiler_flag('-fobjc-arc')
 project.add_single_valued_flag('ENABLE_BITCODE', 'YES') #error
-project.save()   #just test Merge
+project.save()   #master
